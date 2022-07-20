@@ -8,7 +8,7 @@ public class Aufgabe1
         int groessteZahl =0;
 
         //mit for-Schleife durch die Array a gehen
-        for (int i = 0; i <a.length-1 ; i++)
+        for (int i = 0; i <a.length ; i++)
         {
             //für jedes Element an der stelle i in Array a prüfen,ob das größer als unsere größte Zahl ist
             if(a[i] >groessteZahl){
@@ -18,7 +18,7 @@ public class Aufgabe1
         }
 
         // dasselbe mit array b machen
-        for (int i = 0; i <b.length-1 ; i++)
+        for (int i = 0; i <b.length ; i++)
         {
             if(b[i] >groessteZahl){
                 groessteZahl =b[i];
@@ -35,7 +35,7 @@ public class Aufgabe1
         ArrayList<Integer> listeOhneDoppelteWerte = new ArrayList<>();
 
         //mit for Schleife durch die Array gehen
-        for (int i = 0; i <x.length-1 ; i++)
+        for (int i = 0; i <x.length ; i++)
         {
             //prüfen,ob das Element an der Stelle i in Array x in unserer Liste existiert
          if (! listeOhneDoppelteWerte.contains(x[i])){
