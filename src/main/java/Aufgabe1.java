@@ -10,8 +10,9 @@ public class Aufgabe1
         //mit for-Schleife durch die Array a gehen
         for (int i = 0; i <a.length ; i++)
         {
-            //für jedes Element an der stelle i prüfen,ob das größer als unsere größte Zahl ist
+            //für jedes Element an der stelle i in Array a prüfen,ob das größer als unsere größte Zahl ist
             if(a[i] >groessteZahl){
+                // wenn das der Fall ist, dann ist das Element unsere neue größte Zahl
                 groessteZahl =a[i];
             }
         }
